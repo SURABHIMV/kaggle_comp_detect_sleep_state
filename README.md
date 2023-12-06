@@ -4,7 +4,7 @@ Detect sleep onset and wake events from wrist-worn accelerometer data.
 
 ## 🛣️ Roadmap to reproduce the result
 
-* The dataset provided by the competition is very large. The above-mentioned notebooks are executed on Kaggle (with GPU P100). dataprepare.ipynb is the data preparation notebook, and the data extracted from this notebook is utilized during the training of the model in wavenet-train.ipynb (containing the WaveNet model) or cnn-rnn.ipynb (containing a CNN-RNN-based model). The output of wavenet-train.ipynb or cnn-rnn.ipynb notebook comprises the best-trained model. This trained model is then employed in the inference notebook to test the results using the test data provided by the competition.
+The dataset provided by the competition is very large. The above-mentioned notebooks are executed on Kaggle (with GPU P100). dataprepare.ipynb is the data preparation notebook, and the data extracted from this notebook is utilized during the training of the model in wavenet-train.ipynb (containing the WaveNet model) or cnn-rnn.ipynb (containing a CNN-RNN-based model). The output of wavenet-train.ipynb or cnn-rnn.ipynb notebook comprises the best-trained model. This trained model is then employed in the inference notebook to test the results using the test data provided by the competition.
 
 ## 📝Files
 
